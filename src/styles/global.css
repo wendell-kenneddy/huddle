@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+body {
+  @apply bg-brand-violet text-white bg-[url('/bg-mobile.svg')] bg-no-repeat bg-contain sm:bg-fixed sm:bg-cover sm:bg-[url('/bg-desktop.svg')];
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-['Poppins'];
+}
